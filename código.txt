@@ -1,0 +1,40 @@
+using System;
+
+namespace rec
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string[] bichos = {
+                "00 - Jacaré-Coroa", "01 – Ara Azul", "02 – Veado Galheiro", "03 – Bisão",  " 04 – Ornitorrinco","05 – Panda Albino", "06 – Basilisco","07 – Tubarão Martelo","08 – Peixe Palhaço","09 – Raia Jamanta","10 – Baleia Azul","11 - Pica-Pau-Anão-Dourado"
+            };
+            Console.Write("Digite o número de jogadores entre 1 e 4: ");
+            int qtjog;
+            qtjog = Convert.ToInt32(Console.ReadLine());
+            if (qtjog < 1 || qtjog > 4)
+            {
+                Console.Write("Quantidade de jogadores inválida");
+            }
+            else {
+                int j = qtjog;
+                for (j < qtjog; j > qtjog; j++)
+                {
+                    Console.Write("Digite seu nome: ");
+                    string nameplayer = Console.ReadLine();
+                }
+                Console.WriteLine("Agora Digite o número dos bichos escolhidos: ");
+                for (j < qtjog; j > qtjog; j++)
+                {
+                    Console.Write("Digite seu nome: ");
+                    string[] bichoplayer = new Console.ReadLine();
+                }
+               Console.Write(bichos.Sort());
+            }
+           
+
+
+
+        }
+    }
+}
